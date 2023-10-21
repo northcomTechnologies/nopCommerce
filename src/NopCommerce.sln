@@ -65,6 +65,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nop.Plugin.Misc.Zettle", "P
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nop.Plugin.Misc.NopMobileApp", "Plugins\Nop.Plugin.Misc.NopMobileApp\Nop.Plugin.Misc.NopMobileApp.csproj", "{B3DBB095-6CF0-4A6D-AD40-CFCD8D17AF1D}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nop.Plugin.Payments.VivaWallet", "..\..\nopPlugins\Nop.Plugin.Payments.VivaWallet\Nop.Plugin.Payments.VivaWallet.csproj", "{041EB56D-6A1C-4A94-A038-2CA26AFE525D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -377,6 +379,18 @@ Global
 		{B3DBB095-6CF0-4A6D-AD40-CFCD8D17AF1D}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{B3DBB095-6CF0-4A6D-AD40-CFCD8D17AF1D}.Release|x86.ActiveCfg = Release|Any CPU
 		{B3DBB095-6CF0-4A6D-AD40-CFCD8D17AF1D}.Release|x86.Build.0 = Release|Any CPU
+		{041EB56D-6A1C-4A94-A038-2CA26AFE525D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{041EB56D-6A1C-4A94-A038-2CA26AFE525D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{041EB56D-6A1C-4A94-A038-2CA26AFE525D}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{041EB56D-6A1C-4A94-A038-2CA26AFE525D}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{041EB56D-6A1C-4A94-A038-2CA26AFE525D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{041EB56D-6A1C-4A94-A038-2CA26AFE525D}.Debug|x86.Build.0 = Debug|Any CPU
+		{041EB56D-6A1C-4A94-A038-2CA26AFE525D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{041EB56D-6A1C-4A94-A038-2CA26AFE525D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{041EB56D-6A1C-4A94-A038-2CA26AFE525D}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{041EB56D-6A1C-4A94-A038-2CA26AFE525D}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{041EB56D-6A1C-4A94-A038-2CA26AFE525D}.Release|x86.ActiveCfg = Release|Any CPU
+		{041EB56D-6A1C-4A94-A038-2CA26AFE525D}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -43,13 +43,6 @@ export default function copyDependencies()
       .src(nodeModules + 'cldr-data/{main,segments,supplemental}/**')
       .pipe(gulp.dest(targetPath + '/cldr-data')),
 
-      
-    //Fine Uploader  
-    gulp
-      .src(nodeModules + 'fine-uploader/**')
-      .pipe(filter(['**/*.min.*', '**/*.{png,gif}', '**/lib/**']))
-      .pipe(gulp.dest(targetPath + '/fine-uploader')),
-
     //Moment.js  
     gulp
       .src(`${nodeModules}moment/min/moment-with-locales.min.js*`)
@@ -128,7 +121,7 @@ export default function copyDependencies()
 
     //Admin LTE plugins: select2
     gulp
-    .src(nodeModules + '/admin-lte/plugins/select2/**/*.{css,min.js}')
+    .src(nodeModules + 'admin-lte/plugins/select2/**/*.{css,min.js}')
     .pipe(gulp.dest(`${targetPath}admin-lte/plugins/select2`)),
 
     //Chart.js
@@ -137,8 +130,12 @@ export default function copyDependencies()
       .pipe(rename({
         suffix: '.min'
       }))
-      .pipe(gulp.dest(`${targetPath}chart.js`)),
-    ]);
+        .pipe(gulp.dest(`${targetPath}chart.js`)),
 
-    
+    //jQuery Migrate
+    gulp
+      .src(nodeModules + 'jquery-migrate/dist/*.{js,js.map}')
+      .pipe(gulp.dest(`${targetPath}jquery-migrate`)),
+
+    ]);
 }

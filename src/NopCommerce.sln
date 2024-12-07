@@ -81,6 +81,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nop.Plugin.Payments.AmazonP
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nop.Plugin.Shipping.BoxNow", "..\..\nopPlugins\Nop.Plugin.Shipping.BoxNow\Nop.Plugin.Shipping.BoxNow.csproj", "{0220F3F3-8D12-41FD-A2B2-4B4D6CF38F23}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nop.Plugins.Misc.EnhanceSearch", "..\..\nopPlugins\Nop.Plugins.Misc.EnhanceSearch\Nop.Plugins.Misc.EnhanceSearch.csproj", "{567FE788-1D57-403A-B2BB-E3375E3C568E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -489,6 +491,18 @@ Global
 		{0220F3F3-8D12-41FD-A2B2-4B4D6CF38F23}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{0220F3F3-8D12-41FD-A2B2-4B4D6CF38F23}.Release|x86.ActiveCfg = Release|Any CPU
 		{0220F3F3-8D12-41FD-A2B2-4B4D6CF38F23}.Release|x86.Build.0 = Release|Any CPU
+		{567FE788-1D57-403A-B2BB-E3375E3C568E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{567FE788-1D57-403A-B2BB-E3375E3C568E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{567FE788-1D57-403A-B2BB-E3375E3C568E}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{567FE788-1D57-403A-B2BB-E3375E3C568E}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{567FE788-1D57-403A-B2BB-E3375E3C568E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{567FE788-1D57-403A-B2BB-E3375E3C568E}.Debug|x86.Build.0 = Debug|Any CPU
+		{567FE788-1D57-403A-B2BB-E3375E3C568E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{567FE788-1D57-403A-B2BB-E3375E3C568E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{567FE788-1D57-403A-B2BB-E3375E3C568E}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{567FE788-1D57-403A-B2BB-E3375E3C568E}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{567FE788-1D57-403A-B2BB-E3375E3C568E}.Release|x86.ActiveCfg = Release|Any CPU
+		{567FE788-1D57-403A-B2BB-E3375E3C568E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
